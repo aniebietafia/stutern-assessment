@@ -127,11 +127,26 @@ main .card {
 }
 
 #skills ul {
-  list-style: circle;
+  list-style: none;
 }
 
 #skills ul li {
-  margin-left: 2rem;
+  border: 1px solid #333;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+#skills ul li:nth-child(1n) {
+  background-color: #444444;
+  color: #fff;
+}
+#skills ul li:nth-child(2n) {
+  background-color: #333;
+  color: #fff;
+}
+#skills ul li:nth-child(3n) {
+  background-color: #615f5f;
+  color: #fff;
 }
 
 #projects h3 {
