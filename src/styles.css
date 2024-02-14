@@ -11,6 +11,7 @@ body {
   background-color: #f4f4f4;
 }
 
+/* Header styles */
 header {
   background-color: #333;
   color: #fff;
@@ -56,4 +57,28 @@ header nav a:hover {
   color: #f4f4f4;
   border-bottom: 1px solid #f4f4f4;
   transition: all 0.3s ease-in;
+}
+
+/* end of header styles */
+
+/* custom scrollbar styles */
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+/* end of custom scrollbar styles */
+
+/* main styles */
+main {
+  padding: 3rem;
 }
